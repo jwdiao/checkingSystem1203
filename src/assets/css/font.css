@@ -1,0 +1,22 @@
+/*@font-face {
+ font-family: 'fontnameRegular';
+ src: url('UnidreamLED.eot');
+ src: local('UnidreamLED Regular'),
+        local('UnidreamLED'),
+        url('UnidreamLED.woff') format('woff'),
+        url('UnidreamLED.ttf') format('truetype'),
+        url('UnidreamLED.svg#fontname') format('svg');
+}  
+!*其中fontName替换为你的字体名称*!
+.time{font-family: fontnameRegular}*/
+@font-face {
+ font-family: 'fontnameRegular';
+ src: url('DINbeMed.ttf');
+ src: local('DINbeMed Regular'),
+        /*local('DINbeMed'),*/
+        /*url('DINbeMed.woff') format('woff'),*/
+        url('DINbeMed.ttf') format('truetype'),
+        /*url('DINbeMed.svg#fontname') format('svg');*/
+}
+/*其中fontName替换为你的字体名称*/
+.time{font-family: fontnameRegular}
